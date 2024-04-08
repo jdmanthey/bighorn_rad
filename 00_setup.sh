@@ -24,3 +24,11 @@ mkdir 11_eems
 mkdir 20_align_script
 mkdir 21_genotype_script
 mkdir 22_filter_script
+
+# put all fastq files in the 00_fastq directory
+# rename all samples
+cd 00_fastq 
+
+while read -r name1 name2; do
+	mv $name1 $name2
+done < rename.txt
