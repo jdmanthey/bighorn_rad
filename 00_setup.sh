@@ -1,6 +1,11 @@
 # move to working directory
 
 # index reference genome 
+bwa index GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna
+
+java -jar picard.jar CreateSequenceDictionary R=/home/jmanthey/references/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna O=/home/jmanthey/references/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.dict
+
+samtools faidx GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna
 
 # make directories for organization during analyses
 mkdir 00_fastq
