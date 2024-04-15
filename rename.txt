@@ -55,11 +55,11 @@
 19134D-08-82_S0_L001_R2_001.fastq.gz	MuddyMtnsNV_NV95020_R2.fastq.gz
 19134D-08-83_S0_L001_R2_001.fastq.gz	MuddyMtnsNV_NV95021_R2.fastq.gz
 19134D-08-84_S0_L001_R2_001.fastq.gz	MuddyMtnsNV_NV95022_R2.fastq.gz
-19134D-16-01_S0_L001_R2_001.fastq.gz	MormonMtnsNV_512_R2.fastq.gz
-19134D-16-02_S2_L006_R2_001.fastq.gz	MormonMtnsNV_118_R2.fastq.gz
-19134D-16-03_S3_L006_R2_001.fastq.gz	MormonMtnsNV_152_R2.fastq.gz
-19134D-16-04_S0_L001_R2_001.fastq.gz	MormonMtnsNV_522_R2.fastq.gz
-19134D-16-05_S0_L001_R2_001.fastq.gz	MormonMtnsNV_108_R2.fastq.gz
+SRR26962596_pass_2.fastq.gz	MormonMtnsNV_512_R2.fastq.gz
+SRR26962594_pass_2.fastq.gz	MormonMtnsNV_118_R2.fastq.gz
+SRR26962593_pass_2.fastq.gz	MormonMtnsNV_152_R2.fastq.gz
+SRR26962592_pass_2.fastq.gz	MormonMtnsNV_522_R2.fastq.gz
+SRR26962591_pass_2.fastq.gz	MormonMtnsNV_108_R2.fastq.gz
 19134D-08-85_S0_L001_R2_001.fastq.gz	BlackMtnsAZ_AZ95046_R2.fastq.gz
 19134D-08-86_S55_R2_001.fastq.gz	BlackMtnsAZ_AZ95047_R2.fastq.gz
 19134D-08-87_S56_R2_001.fastq.gz	BlackMtnsAZ_AZ95048_R2.fastq.gz
@@ -70,7 +70,7 @@
 19134D-08-12_S10_R2_001.fastq.gz	SonoraMX_YAQUI3_R2.fastq.gz
 19134D-08-13_S11_R2_001.fastq.gz	SonoraMX_YAQUI4_R2.fastq.gz
 19134D-08-14_S12_R2_001.fastq.gz	SonoraMX_YAQUI5_R2.fastq.gz
-19134D-16-20_S2_L004_R2_001.fastq.gz	ElCarmenMX_MX1_R2.fastq.gz
+SRR26962702_pass_2.fastq.gz	ElCarmenMX_MX1_R2.fastq.gz
 19134XD-05-273_S0_L001_R2_001.fastq.gz	SierraDiablo_DiablosTK200911_R2.fastq.gz
 19134XD-05-160_S0_L001_R2_001.fastq.gz	SierraDiablo_DiablosTK249257_R2.fastq.gz
 19134XD-05-161_S0_L001_R2_001.fastq.gz	SierraDiablo_DiablosTK249258_R2.fastq.gz
@@ -102,10 +102,10 @@
 19134XD-05-187_S0_L001_R2_001.fastq.gz	SierraDiablo_DiablosTK249284_R2.fastq.gz
 19134XD-05-188_S0_L001_R2_001.fastq.gz	SierraDiablo_DiablosTK249285_R2.fastq.gz
 19134XD-05-189_S0_L001_R2_001.fastq.gz	SierraDiablo_DiablosTK249286_R2.fastq.gz
-19134D-16-10_S24_L007_R2_001.fastq.gz	SierraDiablo_TK260083_R2.fastq.gz
-19134D-16-06_S23_L007_R2_001.fastq.gz	Beaches_Beach2_R2.fastq.gz
-19134D-16-07_S1_L004_R2_001.fastq.gz	Beaches_Beach3_R2.fastq.gz
-19134D-16-31_S25_L007_R2_001.fastq.gz	Beaches_TBS16_R2.fastq.gz
+SRR26962680_pass_2.fastq.gz	SierraDiablo_TK260083_R2.fastq.gz
+SRR26962679_pass_2.fastq.gz	Beaches_Beach2_R2.fastq.gz
+SRR26962678_pass_2.fastq.gz	Beaches_Beach3_R2.fastq.gz
+SRR26962676_pass_2.fastq.gz	Beaches_TBS16_R2.fastq.gz
 19134D-05-190V1_S13_R2_001.fastq.gz	Beaches_BeachesTK249287_R2.fastq.gz
 19134XD-05-191_S0_L001_R2_001.fastq.gz	Beaches_BeachesTK249288_R2.fastq.gz
 19134XD-05-192_S0_L001_R2_001.fastq.gz	Beaches_BeachesTK249289_R2.fastq.gz
@@ -299,11 +299,11 @@
 19134D-08-82_S0_L001_R1_001.fastq.gz	MuddyMtnsNV_NV95020_R1.fastq.gz
 19134D-08-83_S0_L001_R1_001.fastq.gz	MuddyMtnsNV_NV95021_R1.fastq.gz
 19134D-08-84_S0_L001_R1_001.fastq.gz	MuddyMtnsNV_NV95022_R1.fastq.gz
-19134D-16-01_S0_L001_R1_001.fastq.gz	MormonMtnsNV_512_R1.fastq.gz
-19134D-16-02_S2_L006_R1_001.fastq.gz	MormonMtnsNV_118_R1.fastq.gz
-19134D-16-03_S3_L006_R1_001.fastq.gz	MormonMtnsNV_152_R1.fastq.gz
-19134D-16-04_S0_L001_R1_001.fastq.gz	MormonMtnsNV_522_R1.fastq.gz
-19134D-16-05_S0_L001_R1_001.fastq.gz	MormonMtnsNV_108_R1.fastq.gz
+SRR26962596_pass_1.fastq.gz	MormonMtnsNV_512_R1.fastq.gz
+SRR26962594_pass_1.fastq.gz	MormonMtnsNV_118_R1.fastq.gz
+SRR26962593_pass_1.fastq.gz	MormonMtnsNV_152_R1.fastq.gz
+SRR26962592_pass_1.fastq.gz	MormonMtnsNV_522_R1.fastq.gz
+SRR26962591_pass_1.fastq.gz	MormonMtnsNV_108_R1.fastq.gz
 19134D-08-85_S0_L001_R1_001.fastq.gz	BlackMtnsAZ_AZ95046_R1.fastq.gz
 19134D-08-86_S55_R1_001.fastq.gz	BlackMtnsAZ_AZ95047_R1.fastq.gz
 19134D-08-87_S56_R1_001.fastq.gz	BlackMtnsAZ_AZ95048_R1.fastq.gz
@@ -314,7 +314,7 @@
 19134D-08-12_S10_R1_001.fastq.gz	SonoraMX_YAQUI3_R1.fastq.gz
 19134D-08-13_S11_R1_001.fastq.gz	SonoraMX_YAQUI4_R1.fastq.gz
 19134D-08-14_S12_R1_001.fastq.gz	SonoraMX_YAQUI5_R1.fastq.gz
-19134D-16-20_S2_L004_R1_001.fastq.gz	ElCarmenMX_MX1_R1.fastq.gz
+SRR26962702_pass_1.fastq.gz	ElCarmenMX_MX1_R1.fastq.gz
 19134XD-05-273_S0_L001_R1_001.fastq.gz	SierraDiablo_DiablosTK200911_R1.fastq.gz
 19134XD-05-160_S0_L001_R1_001.fastq.gz	SierraDiablo_DiablosTK249257_R1.fastq.gz
 19134XD-05-161_S0_L001_R1_001.fastq.gz	SierraDiablo_DiablosTK249258_R1.fastq.gz
@@ -346,10 +346,10 @@
 19134XD-05-187_S0_L001_R1_001.fastq.gz	SierraDiablo_DiablosTK249284_R1.fastq.gz
 19134XD-05-188_S0_L001_R1_001.fastq.gz	SierraDiablo_DiablosTK249285_R1.fastq.gz
 19134XD-05-189_S0_L001_R1_001.fastq.gz	SierraDiablo_DiablosTK249286_R1.fastq.gz
-19134D-16-10_S24_L007_R1_001.fastq.gz	SierraDiablo_TK260083_R1.fastq.gz
-19134D-16-06_S23_L007_R1_001.fastq.gz	Beaches_Beach2_R1.fastq.gz
-19134D-16-07_S1_L004_R1_001.fastq.gz	Beaches_Beach3_R1.fastq.gz
-19134D-16-31_S25_L007_R1_001.fastq.gz	Beaches_TBS16_R1.fastq.gz
+SRR26962680_pass_1.fastq.gz	SierraDiablo_TK260083_R1.fastq.gz
+SRR26962679_pass_1.fastq.gz	Beaches_Beach2_R1.fastq.gz
+SRR26962678_pass_1.fastq.gz	Beaches_Beach3_R1.fastq.gz
+SRR26962676_pass_1.fastq.gz	Beaches_TBS16_R1.fastq.gz
 19134D-05-190V1_S13_R1_001.fastq.gz	Beaches_BeachesTK249287_R1.fastq.gz
 19134XD-05-191_S0_L001_R1_001.fastq.gz	Beaches_BeachesTK249288_R1.fastq.gz
 19134XD-05-192_S0_L001_R1_001.fastq.gz	Beaches_BeachesTK249289_R1.fastq.gz
@@ -486,3 +486,4 @@
 19134XD-05-288_S0_L001_R1_001.fastq.gz	RockyMtnNM_NewMexicoTK259849_R1.fastq.gz
 19134XD-05-289_S0_L001_R1_001.fastq.gz	RockyMtnNM_NewMexicoTK259850_R1.fastq.gz
 19134D-15-40_S35_L001_R1_001.fastq.gz	NewMexico_NM19DBS_R1.fastq.gz
+
