@@ -8,7 +8,7 @@ cd ${workdir}
 cd 22_filter_script
 
 ########################################
-######## filter for first 8 datasets
+######## filter for first 6 datasets
 ########################################
 
 # filter for dataset 1 
@@ -40,22 +40,10 @@ vcftools --vcf ${workdir}/05_filtered_vcf/total2.recode.vcf --keep keep_dataset5
 --max-missing 1.0 --recode --recode-INFO-all --out ${workdir}/05_filtered_vcf/dataset5
 
 # filter for dataset 6
-# for EEMS region 1
-vcftools --vcf ${workdir}/05_filtered_vcf/total2.recode.vcf --keep keep_dataset6.txt \
---min-alleles 2 --max-alleles 2 --mac 3 --thin 10000 --max-maf 0.49 \
---max-missing 1.0 --recode --recode-INFO-all --out ${workdir}/05_filtered_vcf/dataset6
-
-# filter for dataset 7
-# for EEMS region 2
-vcftools --vcf ${workdir}/05_filtered_vcf/total2.recode.vcf --keep keep_dataset7.txt \
---min-alleles 2 --max-alleles 2 --mac 3 --thin 10000 --max-maf 0.49 \
---max-missing 1.0 --recode --recode-INFO-all --out ${workdir}/05_filtered_vcf/dataset7
-
-# filter for dataset 8
 # for pairwise Fst of all populations with at least 4 individuals
-vcftools --vcf ${workdir}/05_filtered_vcf/total2.recode.vcf --keep keep_dataset8.txt \
+vcftools --vcf ${workdir}/05_filtered_vcf/total2.recode.vcf --keep keep_dataset6.txt \
 --min-alleles 2 --max-alleles 2 --max-maf 0.49 \
---recode --recode-INFO-all --out ${workdir}/05_filtered_vcf/dataset8
+--recode --recode-INFO-all --out ${workdir}/05_filtered_vcf/dataset6
 
 
 ########################################
