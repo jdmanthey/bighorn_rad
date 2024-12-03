@@ -1,11 +1,24 @@
 # move to working directory
 
-# index reference genome 
-bwa index GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna
 
-java -jar picard.jar CreateSequenceDictionary R=/home/jmanthey/references/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna O=/home/jmanthey/references/GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.dict
+# index the reference
+interactive -p nocona
 
-samtools faidx GCF_016772045.2_ARS-UI_Ramb_v3.0_genomic.fna
+cd references
+
+source activate bcftools
+
+bwa-mem2 index GCA_042477335.2_ARS-UI_OviCan_v2_genomic.fna 
+
+samtools faidx GCA_042477335.2_ARS-UI_OviCan_v2_genomic.fna
+
+java -jar picard.jar CreateSequenceDictionary \
+R=/home/jmanthey/references/GCA_042477335.2_ARS-UI_OviCan_v2_genomic.fna \
+O=/home/jmanthey/references/GCA_042477335.2_ARS-UI_OviCan_v2_genomic.dict
+
+
+
+
 
 # make directories for organization during analyses
 mkdir 00_fastq
@@ -22,8 +35,7 @@ mkdir 09_relatedness
 mkdir 10_popsize
 mkdir 11_eems
 mkdir 20_align_script
-mkdir 21_genotype_script
-mkdir 22_filter_script
+mkdir 21_filter_script
 
 # put all fastq files in the 00_fastq directory
 # rename all samples
