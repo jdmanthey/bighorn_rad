@@ -25,7 +25,6 @@ rm *recode*
 ##########################################
 
 # do this in R
-
 options(scipen=999)
 
 # read in a small vcf (don't use for large vcf files)
@@ -71,6 +70,21 @@ for(a in 1:nrow(genotypes)) {
         genotypes[a,][genotypes[a,] == "0/1"] <- sample(het, length(genotypes[a,][genotypes[a,] == "0/1"]), replace=T)
     }
 }
+
+# remove any sites that are invariant (due to random sampling of 
+# variant sites only found in heterozygous state)
+keep <- list()
+for(a in 1:nrow(genotypes)) {
+	a_rep <- genotypes[a,]
+	a_rep <- a_rep[a_rep != "?"]
+	if(length(unique(a_rep)) > 1) {
+		keep[[a]] <- a
+	}
+}
+keep <- unlist(keep)
+genotypes <- genotypes[keep,]
+
+
 # output name
 outname <- "bighorn.fasta"
 
@@ -84,4 +98,4 @@ for(a in 1:ncol(genotypes)) {
         write(paste(genotypes[,a], collapse=""), file=outname, ncolumns=1, append=T)
 	}
 }
-
+dim(genotypes)
