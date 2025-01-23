@@ -1,0 +1,9 @@
+datapath = /lustre/scratch/jmanthey/07_bighorn_rad/11_eems/Texas_bighorn
+mcmcpath = /lustre/scratch/jmanthey/07_bighorn_rad/11_eems/output
+nIndiv = 147
+nSites = 16568
+nDemes = 200
+diploid = true
+numMCMCIter = 2000000
+numBurnIter = 1000000
+numThinIter = 9999
