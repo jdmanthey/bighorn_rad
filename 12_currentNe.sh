@@ -64,8 +64,6 @@ vcftools --vcf ${workdir}/04_vcf/${region_array}.vcf --keep keep.vanhorn.txt \
 # interactive session
 interactive -p nocona -c 8
 
-module load gnu7/7.3.0
-
 # set working directory
 workdir=/lustre/scratch/jmanthey/07_bighorn_rad/10_popsize
 cd $workdir
